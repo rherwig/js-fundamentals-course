@@ -25,7 +25,8 @@
 // Edge is following instructions
 
 /**
- * 
+ * This is a multiline comment.
+ * Like this.
  */
 
 
@@ -83,6 +84,8 @@ console.log(7);
 
 // const === constant (a value that cannot be changed)
 const secondsInYear = 31536000;
+const secondsInYearCalculation = 60 * 60 * 24 * 365.25;
+const secondsInHour = 60 * 60;
 
 console.log(29 * secondsInYear);
 
@@ -98,3 +101,6 @@ console.log(Math.PI * (radius * radius));
 // radius to the power of two <== this is a number bruh,cmon. radius ^ 2
 
 console.log(Math.pow(radius, 3));
+
+const combo = "d+2;f+2,N,1;1;f,F+1+2,1+2";
+
