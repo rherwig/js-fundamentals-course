@@ -53,6 +53,7 @@ const m = 3e12; // = 3 * 10^12
 const isEdgeKazuyaPro = true;
 const isRicoLeePro = false;
 
+
 // Tip: Start boolean names with a modal verb (is, has, can, should, ...)
 
 // Other types for later: Array, Object, Function, null
@@ -64,7 +65,7 @@ const isRicoLeePro = false;
 
 const firstName = 'Frank'; // string
 const lastName = 'Mayer'; // string
-const age = 57; // number
+const age = undefined; // number
 const isMarried = true; // boolean
 
 // Task 4: String concatenation
@@ -83,6 +84,19 @@ console.log(brand + ' ' + productName + '!'); // "Nike Sneakers!"
 const a = true;
 const b = true;
 
+// Prediction:
+// - true
+// - truetrue
+// - value of true is 0/1
 console.log(a + b);
 
 // Observe the result output to the console and explain why it is that way.
+
+// It outputs the number 2.
+// JS converts booleans to numbers for arithmetics.
+// true = 1
+// false = 0
+
+// true + true = 2
+// false + false = 0
+// true + false = 1
