@@ -65,3 +65,11 @@ if (password === 'letmein') {
 }
 
 // Homework: Finish Task 3.
+
+if (username === 'admin' && password === 'letmein') {
+    console.log('Login successful for user admin');
+}
+
+if (username === 'Rico' || username === 'Edge') {
+    
+}
